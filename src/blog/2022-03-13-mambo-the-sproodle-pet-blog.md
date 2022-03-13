@@ -3,10 +3,9 @@ title: Mambo the Sproodle (Pet Blog)
 description: "Technologies/tools used: HTML, CSS, JavaScript, Mapbox, MongoDB,
   Cloudinary, Node.js, Bootstrap, Heroku"
 author: Yuko Taniguchi
-date: 2022-03-13T12:40:24.616Z
+date: 2022-03-13T13:02:23.398Z
 tags:
   - post
-  - featured
 image: /assets/blog/mambo.png
 imageAlt: Mambo the Sproodle Landing Page
 ---
