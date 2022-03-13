@@ -6,6 +6,7 @@ author: Yuko Taniguchi
 date: 2022-03-13T12:40:24.616Z
 tags:
   - post
+  - featured
 image: /assets/blog/mambo.png
 imageAlt: Mambo the Sproodle Landing Page
 ---
