@@ -7,24 +7,50 @@ layout: 'base.njk'
 <section class="hero">
   <div class="container flow">
       <div class="hero__content flow">
-        <h1 class="section-title">Yuko Taniguchi</h1>
-        <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
-        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        <h1 class="hero-title">Yuko Taniguchi</h1>
+        <p>Hi, I am a front-end developer living in Australia. I am passionate to create simple yet modern websites. "Learnaholic" best describes myself as my curiosity never ends!</p>
         <div class="flex-group">
-          <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
+          <a href="#featured-articles" class="btn btn--primary">Featured projects</a>
           <a href="./blog" class="btn btn--neutral">Most recent articles</a>
         </div>
       </div>
       <div>
-        <img src="//unsplash.it/510" alt="" class="hero__image">
+        <img src="assets/blog/profile.jpg" alt="Profile photo" class="hero__image" style="border-radius: 50%;">
       </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container flow">
+    <h2 class="section-title text-center ">About Me and My Journey</h2>
+    <p>My name is Yuko, I have been learning web development
+      since the beginning of 2020. It all started from the moment I played with a
+      little mobile game which introduces people how to use HTML and CSS. I fell in
+      love with the concept and I thought
+       that this was something I could do. Of course it was made simple for people
+        to get into the web developement. But the reality wasn't as easy as the game!
+        Especially self-learning was lonely journey. I even gave it a break for a few months,
+        focusing on dance performance (I was a Salsa dance addict!) and study in other area.
+
+        The things got a little more serious when I started The Web Developer Bootcamp (Udemy course)
+        by Colt Steele. I joined the study group on Facebook, which really helped me to get through
+        the course. Everyone was so supportive and happy to exchange thier experiences and knowledge.
+        The community helped me to become a web developer.
+
+        I had no Computer Science background,
+        I was bad at Math when I was in highschool (looong time ago). I was in mid 30s
+        when I decided to learn all about web developement. But I managed to build some
+        website projects. Now web development is a huge part of my life, somehing I feel passionate
+        about. The below tweet is the feeling I have every day!
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Day45 <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a><br><br>Who feels the same?🤪 <a href="https://t.co/9tKXF4ztOR">pic.twitter.com/9tKXF4ztOR</a></p>&mdash; Yuko T (@codieTamago) <a href="https://twitter.com/codieTamago/status/1483787407325822976?ref_src=twsrc%5Etfw">January 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </p>
   </div>
 </section>
 
 <section id="featured-articles" class="featured-articles">
   <div class="container flow">
-    <h2 class="section-title text-center ">Featured articles</h2>
-    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
+    <h2 class="section-title text-center ">Featured projects</h2>
+    <p class="text-center">Here is a sample of my past projects. I am absolutely loving this journey!</p>
     <ul role="list" class="articles__list flow">
 
       {%- for post in collections.featured | reverse -%}
@@ -32,6 +58,19 @@ layout: 'base.njk'
       {%- endfor -%}
 
     </ul>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container flow">
+    <h2 class="section-title text-center ">Contact Me</h2>
+    <p class="text-center">Email: yukotaniguchi@outlook.com</p>
+    <p class="text-center">Mobile: 0481184202</p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/yuko-t-b07269225/" target="_blank"><img class="social-icon" src="assets/blog/linkedin.png"></img></a>
+      <a href="https://github.com/Yuko-code" target="_blank"><img class="social-icon" src="assets/blog/github.png"></img></a>
+      <a href="https://twitter.com/codieTamago" target="_blank"><img class="social-icon" src="assets/blog/twitter.png"></img></a>
+    </div>
   </div>
 </section>
 

@@ -5,9 +5,8 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
 
-  --ff-body: "Roboto", sans-serif;
-  --ff-heading: "Playfair Display", serif;
-
+  --ff-body: 'Lato', sans-serif;
+  --ff-heading: 'Yeseva One', cursive;
   --fw-400: 400;
   --fw-700: 700;
   --fw-900: 900;
@@ -31,6 +30,7 @@
     --fs-500: 1.5rem;
     --fs-600: 2.25rem;
     --fs-700: 3rem;
+    --fs-900: 4rem;
   }
 }
 
@@ -180,7 +180,8 @@ section,
 
 .article-title,
 .section-title {
-  color: var(--clr-primary-500);
+  color: var(--clr-neutral-900);
+
 }
 
 .article-title {
@@ -226,7 +227,6 @@ section,
   /////////////////////// */
 
 .site-footer {
-  --logo-color: currentColor;
   padding: 2em 0;
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-500);
@@ -245,10 +245,18 @@ section,
   gap: 3em;
 }
 
+.hero-title{
+  font-size: var(--fs-900);
+}
+
 .hero__image {
   width: 100%;
   /* max-height: max(15rem, 40vh); */
   object-fit: cover;
+}
+
+.twitter-tweet{
+  margin: 0 auto;
 }
 
 @media (min-width: 45em) {
@@ -264,6 +272,24 @@ section,
 .articles__list {
   --flow-spacer: 3rem;
   margin: 6rem 0;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+.social-icon{
+  width: 40px;
+  transition: .4s;
+
+}
+.social-icon:hover{
+  opacity: .7;
 }
 
 /* //////////////////////
@@ -330,7 +356,7 @@ section,
 .snippet__title a:hover,
 .snippet__title a:focus {
   color: var(--clr-primary-500);
-} 
+}
 
 @media (min-width: 45em) {
   .snippet {
@@ -370,7 +396,7 @@ section,
 .btn--primary:hover,
 .btn--primary:focus {
   background: var(--clr-primary-500);
-  border-color: var(--clr-primary-500); 
+  border-color: var(--clr-primary-500);
 }
 
 .btn--neutral {
@@ -385,3 +411,4 @@ section,
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
 }
+
